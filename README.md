@@ -4,7 +4,7 @@
 - Easy to use
 - Small size
 # screenshot
-![Screenshot from 2023-11-16 21-17-45.png](../_resources/Screenshot%20from%202023-11-16%2021-17-45.png)
+![Screenshot from 2023-11-16 21-17-45.png](https://drive.google.com/file/d/1Ei4i2siJXbq8sZehpOX1UuwRBFYR5zWp/view?usp=drive_link)
 
 # Installation
 
