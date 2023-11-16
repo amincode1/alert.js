@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>alert.js</title>
+</head>
+<body>
+<script type="text/javascript" src="./alert.js"></script>
+<script type="text/javascript">
+	new Alert({
+		text: 'Hello World !!',
+		location: 'tl',
+		severity: 'success',
+		theme: 'lite',
+		limit: 7,
+		after: function(){
+			var x = 10;
+			var y = 20;
+			console.log(x + y);
+		},
+		clickFun: function(){
+			console.log('click alert');
+		}
+	});
+
+	new Alert({
+		text: 'Hello World !!',
+		location: 'tr',
+		severity: 'error',
+		theme: 'lite',
+		clickFun: function(){
+			alert('click fun');
+		}
+	});
+
+	new Alert({
+		text: 'Hello World !!',
+		location: 'br',
+		severity: 'info',
+		theme: 'lite',
+		clickFun: function(){
+			alert('click fun');
+		}
+	});
+
+	new Alert({
+		text: 'Hello World !!',
+		location: 'bl',
+		clickUrl: 'https://google.com',
+		severity: 'warn',
+		theme: 'lite',
+		clickFun: function(){
+			alert('click fun');
+		}
+	});
+</script>
+</body>
+</html>
