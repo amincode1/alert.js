@@ -1,4 +1,4 @@
-# javscript alert class
+# javascript class to alert message
 
 - Simple
 - Easy to use
