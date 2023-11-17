@@ -43,10 +43,10 @@
 | name | default | type | description |
 | --- | --- | --- | --- |
 | limit | 5   | Integer | The time the alert disappears in seconds |
-| location | 'tc' | String | Where the notification appears `details` |
+| location | 'tc' | String | Where the notification appears|
 | clickUrl | null | String | The address of a website that you will go to when you click on the alert |
 | clickFun | String | Function | A JavaScript function that runs when the logo is clicked |
-| severity | 'success' | String | The serious type of poetry `details` |
+| severity | 'success' | String | The serious type of poetry|
 | theme | 'lite' | String | The type of theme used on the site |
 | after | null | Function | function run after alert end |
 
