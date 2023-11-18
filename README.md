@@ -7,7 +7,7 @@
 ![Screenshot](https://github.com/amincode1/alert.js/blob/main/Screenshots/1.png)
 
 # Installation
-## For use in framework got to npm package [javascript-alert]("https://www.npmjs.com/package/javascript-alert")
+## For use in framework got to npm package [javascript-alert](https://www.npmjs.com/package/javascript-alert)
 ## normal html and javascript: 
 - ### clone project from github
 - ### tack `alert.js` file to your project
