@@ -7,14 +7,12 @@
 ![Screenshot](https://github.com/amincode1/alert.js/blob/main/Screenshots/1.png)
 
 # Installation
-
-- ## clone project from github
+## For use in framework got to npm package [javascript-alert]("https://www.npmjs.com/package/javascript-alert")
+## normal html and javascript: 
+- ### clone project from github
+- ### tack `alert.js` file to your project
+- ### add to html file
     
-- ## tack `alert.js` file to your project
-    
-- ## add to html file
-    
-
 ```html
  <script src="./alert.js"></script>
 ```
@@ -47,7 +45,6 @@
 | clickUrl | null | String | The address of a website that you will go to when you click on the alert |
 | clickFun | String | Function | A JavaScript function that runs when the logo is clicked |
 | severity | 'success' | String | The serious type of poetry|
-| theme | 'lite' | String | The type of theme used on the site |
 | after | null | Function | function run after alert end |
 
 # option (location)
@@ -74,13 +71,6 @@
 - ### 'warn'
     
 - ### 'error'
-    
-
-# option (theme)
-
-- ### 'lite'
-    
-- ### 'dark'
     
 
 # option (clickUrl) how to use
@@ -130,6 +120,7 @@
 | cursor | 'pointer' |
 | fontWeight | 'bold' |
 | borderBottom | 'solid 4px' |
+| zIndex | '9'
 
 # change style
 
